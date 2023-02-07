@@ -11,4 +11,5 @@ public class Tiger extends Cat {
         Integer x = new Integer("1"); //'Integer(java.lang.String)' is deprecated
         System.out.println(x);
     }
+
 }
