@@ -5,7 +5,7 @@ public class Soru_107_Boolean {
         boolean a = new Boolean(Boolean.valueOf (args [0]));//1-->False
         boolean b = new Boolean(args[1]);//null-->False
         System.out.println(a + " " + b);
-        a(null,"true");
+      //  a("1",null);
 
     }
     static void a(String a, String b){

@@ -7,4 +7,5 @@ public class X {
         /* code goes here */
         throw new IOException();
     }
+
 }

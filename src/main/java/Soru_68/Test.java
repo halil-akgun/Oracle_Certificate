@@ -11,7 +11,7 @@ public class Test {
         }
     }
 
-    static void methodi() {  // line nl
+    public static void methodi() {  // line nl
         try {
             throw 3 < 10 ? new MyException() : new IOException();
         } catch (IOException ie) {

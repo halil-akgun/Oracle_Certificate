@@ -1,6 +1,7 @@
 package Soru_169_importClassMethod.pants;
 
-import  Soru_169_importClassMethod.*;
+import Soru_13.Vehicle;
+import Soru_169_importClassMethod.Shirt;
 
 public class Jeans {
     public void matchshirt() {

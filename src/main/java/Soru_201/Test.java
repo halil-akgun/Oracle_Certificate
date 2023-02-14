@@ -10,7 +10,7 @@ public class Test {
 //        for (Student s : students) {
 //            System.out.println("" + s.name);
 //        }
-        System.out.println(students[0]);// burada "null" dondurur. bos bir obje name ye ulasmaya
+        System.out.println(students[1]);// burada "null" dondurur. bos bir obje name ye ulasmaya
         System.out.println(students[0].name);// burada "nullPointerException" dondurur.
                                              // bos bir obje ile name ye ulasmaya calisiyorum.
 

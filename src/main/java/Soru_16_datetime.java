@@ -3,7 +3,6 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class Soru_16_datetime {
-
     public static void main(String[] args) {
         LocalDateTime dt = LocalDateTime.of(2014, 7, 31, 1, 1);
         dt.plusDays(30);// We have to asign the last value.
@@ -14,6 +13,8 @@ public class Soru_16_datetime {
         System.out.println();
         LocalDate date = LocalDate.of(1995,9,12);
         System.out.println(date);
+
+
 
     }
 }

@@ -5,7 +5,7 @@ public class Soru_94 {
         setName(name);
     }
     public Soru_94(String name, int age) {
-       // Soru_94(name); // line n2 this(name)
+     //  Soru_94(name); // line n2 this(name)
         setAge(age);
     }
 

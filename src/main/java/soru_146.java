@@ -4,7 +4,7 @@ public class soru_146 {
         String[] strs = new String[2];
         int idx = 0;
         for (String s : strs) {
-            strs[idx].concat(" element " + idx);
+            //strs[idx].concat(" element " + idx);
             idx++;
         }
         for (idx = 0; idx < strs.length; idx++) {

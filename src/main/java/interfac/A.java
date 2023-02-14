@@ -6,6 +6,7 @@ public interface A {
      int b1 =3000;
 
 
+
     private   static  int myMethodd() {
         return 12;
     }

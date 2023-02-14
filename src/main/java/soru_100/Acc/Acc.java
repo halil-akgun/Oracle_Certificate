@@ -6,6 +6,7 @@ public class Acc {
     private int q;
     protected int r;
     public int s;
+
     protected void a(){
 
     }

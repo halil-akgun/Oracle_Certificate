@@ -9,7 +9,8 @@ public class Soru_136 {
         arrayList.add("Tech") ;
         arrayList.add("Expert") ;
         arrayList.set(0, "Java");
-//        arrayList.forEach (a ->  arrayList.set(arrayList.indexOf(a),a.concat("Forum"))); // boyle olabilirdi//[JavaForumGroup, ExpertForumGroup]
+        arrayList.forEach (a ->   a.concat("Forum")); // boyle olabilirdi//[JavaForumGroup, ExpertForumGroup]
+        System.out.println(arrayList);
         arrayList.forEach (a ->  a.concat("Forum"));
         arrayList.replaceAll (s -> s.concat("Group") ) ;
         System.out.println(arrayList);

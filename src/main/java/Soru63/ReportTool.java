@@ -2,9 +2,9 @@ package Soru63;
 
 class ReportTool extends Tool{
 
-//     void export() { // line n2
-//        System.out.println("RTool::export");
-//    }
+    public void export() { // line n2
+        System.out.println("RTool::export");
+    }
 
 
 

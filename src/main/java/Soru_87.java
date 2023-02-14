@@ -19,8 +19,8 @@ public class Soru_87 {
         System.out.println(obj2.num);
         System.out.println(obj2.hashCode());
         System.out.println(obj1.hashCode()); // obj1 ve obj2 ayni
-        System.out.println(obj3.hashCode());
-//        System.out.println(obj3);  // NullPointerException verir. null degerinin memoryde yeri yoktur
+//        System.out.println(obj3.hashCode());  // NullPointerException verir. null degerinin memoryde yeri yoktur
+        System.out.println(obj3);
         int x = 5;
         a(x);
         System.out.println("x = " + x);

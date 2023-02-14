@@ -17,7 +17,6 @@ public class Test {
         List<Person> iList = Arrays.asList(new Person("Hank", 45),
                 new Person("Charlie", 40),
                 new Person("Smith", 38));
-        checkAge (iList, (Person p ) -> p.getAge ( ) > 40);
-
+        checkAge(iList, p -> p.getAge() > 40);
     }
 }

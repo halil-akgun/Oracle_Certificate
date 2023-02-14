@@ -16,7 +16,7 @@ public class Soru_113 {
     public void sell(int qty) {
         this.qty=qty;
         stock -= qty;}
-    public void printstock(String action) {
+    public  void printstock(String action) {
         System.out.println(action + ":" + qty + " items. Stock in Hand: " + stock);
     }
     public static void main(String[] args) {

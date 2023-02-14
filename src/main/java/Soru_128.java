@@ -15,6 +15,7 @@ public class Soru_128 {
                 ml.y = 200;
                 Soru_128 m2 = new Soru_128();
                 m2.doStuff(ml.x, ml.y);
+                ml.doStuff(ml.x, ml.y);
                 ml.display();
                 m2 .display();
             } // 100 200 : 0 0 :

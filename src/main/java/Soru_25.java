@@ -16,6 +16,7 @@ public class Soru_25 {
         System.out.println(Arrays.toString(nums2));
 
 
+
     }
 
 
